@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "face-visuals"
+version = "0.1.0"
+description = ""
+authors = ["trandon <163871797+x0trandon@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.9.0.80"
+setuptools = "^69.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
